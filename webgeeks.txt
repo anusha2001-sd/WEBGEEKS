@@ -1,0 +1,923 @@
+Enter your urlhttps://webgeeks-3.herokuapp.com/
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>
+   Website
+  </title>
+  <link href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&amp;family=Cinzel+Decorative&amp;display=swap" rel="stylesheet"/>
+  <link href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&amp;family=Cinzel+Decorative&amp;family=Emilys+Candy&amp;display=swap" rel="stylesheet"/>
+  <link href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&amp;family=Cinzel+Decorative&amp;family=Emilys+Candy&amp;family=Sacramento&amp;display=swap" rel="stylesheet"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <style type="text/css">
+   body
+                {
+                        background: url('images/home.jpg') ;
+                        position: absolute;
+                        height: 100%;
+                        width: 99%;
+                }
+                h1
+                {
+                        font-family: 'Alex Brush', cursive;
+                        font-family: 'Cinzel Decorative', cursive;
+                        text-align: center;
+                        font-size: 50px;
+                        font-weight: bold;
+                        margin-bottom: 45px;
+                        color: #331100;
+                }
+                h2
+                {
+                        font-family: 'Alex Brush', cursive;
+                        font-family: 'Cinzel Decorative', cursive;
+                        font-family: 'Emilys Candy', cursive;
+                        font-size: 35px;
+                        color: #331100;
+                }
+                h3
+                {
+                        font-family: 'Alex Brush', cursive;
+                        font-family: 'Cinzel Decorative', cursive;
+                        font-family: 'Emilys Candy', cursive;
+                        font-family: 'Sacramento', cursive;
+                        color: #331100;
+                        font-size: 50px;
+                        text-align: center;
+                        border-bottom: 1px solid black;
+                }
+#container {
+  position: relative;
+  width: 30%;
+  float: left;
+}
+#container1 {
+  position: relative;
+  width: 43%;
+  float: right;
+}
+#rnj
+{
+        float: left;
+        padding-right: 25px;
+         padding-left: 10px;
+         padding-top:10px;
+}
+
+#mov
+{
+        float: left; padding-right: 15px;padding-left: 10px;padding-top:10px;
+}
+#overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+#container:hover #overlay {
+  opacity: .5;
+}
+#container1 :hover #overlay {
+  opacity: .5;
+}
+
+#text {
+  color: black;
+  font-size: 30px;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+                footer
+                {
+                        text-align: center;
+                        background-color: #330d00;
+                        color: white;
+                        font-size: 25px;
+                        position: absolute;
+                        height: 150px;
+                        width: 100%;
+                }
+  </style>
+ </head>
+ <body>
+  <h1>
+   William Shakespeare
+  </h1>
+  <p>
+   <p>
+    <img src="images/WilliamShakespeare.jpg" style="float: left; padding-right: 30px;padding-left: 10px;"/>
+    <p style="padding-left:25px;font-size: 25px;margin-left: 20px;">
+     William Shakespeare was a renowned English poet, playwright, and actor born in 1564 in Stratford-upon-Avon. His birthday is most commonly celebrated on 23 April (see When was Shakespeare born), which is also believed to be the date he died in 1616.
+    </p>
+   </p>
+   <p style="padding-left:25px;font-size: 25px;margin-left: 20px;">
+    Shakespeare was a prolific writer during the Elizabethan and Jacobean ages of British theatre (sometimes called the English Renaissance or the Early Modern Period). Shakespeare’s plays are perhaps his most enduring legacy, but they are not all he wrote. Shakespeare’s poems also remain popular to this day.
+   </p>
+   <p style="font-style: italic;font-weight: bold; text-align: center;padding-bottom: 30px;padding-top: 25px;font-size: 25px;">
+    "All the world's a stage
+    <br/>
+    And all the men and women merely players.
+    <br/>
+    They have their exits and their entrances,
+    <br/>
+    And one man in his time plays many parts."
+    <br/>
+    -William Shakespeare
+   </p>
+  </p>
+  <br/>
+  <h2>
+   Shakespeare's Works
+  </h2>
+  <p>
+   <img src="images/shakespeare.jpg" style="float: right;padding-right: 30px;padding-left: 10px;"/>  
+   <p class="Develop" style="padding-right:25px;font-size: 25px;margin-right: 20px;">
+    Altogether Shakespeare's works include 38 plays, 2 narrative poems, 154 sonnets, and a variety of other poems. No original manuscripts of Shakespeare's plays are known to exist today. It is actually thanks to a group of actors from Shakespeare's company that we have about half of the plays at all. 
+They collected them for publication after Shakespeare died, preserving the plays. These writings were brought together in what is known as the First Folio ('Folio' refers to the size of the paper used). It contained 36 of his plays, but none of his poetry.
+   </p>
+   <p style="padding-right:25px;font-size: 25px;margin-right: 20px;">
+    Shakespeare’s legacy is as rich and diverse as his work; his plays have spawned countless adaptations across multiple genres and cultures. His plays have had an enduring presence on stage and film. 
+His writings have been compiled in various iterations of The Complete Works of William Shakespeare, which include all of his plays, sonnets, and other poems. William Shakespeare continues to be one of the most important literary figures of the English language.
+   </p>
+   <h3>
+    Romeo And Juliet
+   </h3>
+   <p>
+    <div id="container">
+     <a href="sonnet1.html">
+      <img id="rnj" src="images/romeoAndjuliet.jpg"/>
+      <div id="overlay">
+       <div id="text">
+        Click Here
+       </div>
+      </div>
+     </a>
+    </div>
+    <p style="padding-left:25px;font-size: 25px;margin-left: 20px;">
+     Romeo and Juliet is a play written by the English playwright William Shakespeare. It was published for the first time in 1597.
+    </p>
+    <p style="padding-left:25px;font-size: 25px;margin-left: 20px;">
+     Romeo and Juliet is probably the most famous love story of all time. It is a tragic tale depicting the forbidden love shared by two young lovers coming from two feuding families. The story is, along with Hamlet, Shakespeare’s most popular and frequently performed play. Romeo and Juliet is regarded by many experts as a great example of Shakespeare’s early dramatic skill.
+    </p>
+    <p style="padding-left:25px;font-size: 25px;margin-left: 20px;">
+     The play is set in the Italian city Verona where two noble families, the Montagues and the Capulets, have been sworn enemies for years on end. An unlikely turn of events results in Romeo (the son of Montague) and Juliet (Capulet’s daughter) falling in love and getting married in secret.
+    </p>
+    <br/>
+    <p class="Develop" style="font-style: italic;font-weight: bold;font-size: 25px;margin-left: 20px;text-align: center;">
+     "Come what sorrow can,
+     <br/>
+     It cannot countervail the exchange of joy,
+     <br/>
+     That one short minute gives me in her sight"
+    </p>
+    <br/>
+    <h3>
+     Julius Caeser
+    </h3>
+    <p>
+     <div class="Develop" id="container1">
+      <a href="trial.html">
+       <img id="jc" src="images/juliusCaeser.jpg" style="float: right;padding-right: 30px;padding-left: 10px;padding-top:10px;"/>
+       <div id="overlay">
+        <div class="Develop" id="text">
+         Click Here
+        </div>
+       </div>
+      </a>
+     </div>
+     <p style="padding-right:25px;font-size: 25px;margin-right: 20px;">
+      Julius Caesar is a tragedy by William Shakespeare, written sometime around 1599. As movie posters and book covers like to say, the play is "based on a true story": the historical events surrounding the conspiracy against the ancient Roman leader Julius Caesar (c.100-44B.C.) and the civil war that followed his death. Fun times—guess they should have thought their plans through a little more. Shakespeare portrays Caesar's assassination on the Ides of March (March 15) by a group of conspirators who feared the ambitious leader would turn the Roman Republic into a tyrannical monarchy.
+     </p>
+     <p style="padding-right:25px;font-size: 25px;margin-right: 20px;">
+      Julius Caesar was most likely the first play performed at the Globe Theater. Shakespeare wrote 
+the play around 1599, just after he had completed a series of English political histories. Like the history plays, Julius Caesar gives voice to some late-16th-century English political concerns. When Shakespeare wrote Caesar, it was pretty obvious that the 66-year-old Queen Elizabeth I (1533-1603) wasn't going to produce an heir to the throne, and her subjects were stressed out about what would happen upon the monarch's death.In other words, Julius Caesar asks its audience to think about the parallels between ancient Roman history and contemporary politics.
+     </p>
+     <p style="font-style: italic;font-weight: bold;font-size: 25px;margin-left: 20px;text-align: center;">
+      “Why, man, he doth bestride the narrow world
+      <br class="Develop"/>
+      Like a Colossus; and we petty men
+      <br/>
+      Walk under his huge legs, and peep about
+      <br/>
+      To find ourselves dishonourable graves.”
+      <br/>
+     </p>
+    </p>
+   </p>
+   <br/>
+   <h3>
+    Merchant Of Venice
+   </h3>
+   <p "="">
+    <div id="container">
+     <a href="web4.html">
+      <img id="mov" src="images/MerchantOfVenice.jpg"/>
+      <div id="overlay">
+       <div class="Develop" id="text">
+        Click Here
+       </div>
+      </div>
+     </a>
+    </div>
+    <p class="Develop" style="padding-left:25px;font-size: 25px;margin-left: 20px;">
+     The Merchant of Venice contains some of Shakespeare’s most memorable and complex characters. While Antonio is central to this play — after all, he is normally considered the person for whom it is named — audiences are inevitably fascinated by Shylock, the Jew who sues Antonio for a lethal “pound of flesh” in return for unpaid loans, and by Portia, the wealthy heiress, who marries Antonio’s friend Bassanio and saves Antonio’s life in a dramatic courtroom scene.
+    </p>
+    <p style="padding-left:25px;font-size: 25px;margin-left: 20px;">
+     Although Shylock is the villain of this play, Shakespeare departs from the Elizabethan caricature of the cruel, hated Jew, as exemplified by Marlowe’s Barabas in *The Jew of Malta* (1589-90). His creation is more complex, fusing humanity with unrelenting cruelty and a strict adherence to the letter of the law. In this way, the Jew-figure becomes something impossible to define, performable as the 
+clownish, evil, red-haired Elizabethan devil (a precursor to Dickens’ Fagin), or as the sympathetic Jew of our modern, post-holocaust view.
+    </p>
+    <p class="Develop" style="font-style: italic;font-weight: bold;font-size: 25px;margin-left: 20px;text-align: center;">
+     “One half of me is yours, the other half is yours,
+     <br/>
+     Mine own, I would say; but if mine, then yours,
+     <br/>
+     And so all yours.”
+     <br/>
+    </p>
+   </p>
+   <br/>
+  </p>
+ </body>
+</html>
+<footer>
+ <div>
+  <p>
+   University Visvesvaraya College Of Engineering
+   <br class="Develop"/>
+   Ambedkar Veedhi, K.R.Circle,
+   <br class="of"/>
+   Bangalore.
+  </p>
+ </div>
+</footer>
+
+
+website 2
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Website 2</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		h1
+		{
+			text-align: center;
+			font-size: 50px;
+			font-weight: bold;
+			color: white;
+			background-color: rgb(8,8,8);
+			padding-top: 20px;
+			padding-bottom: 20px;
+			margin-top: 0px;
+		}
+	
+		h2
+		{
+			font-size: 55px;
+		}
+		li
+		{
+			font-size: 45px;
+		}
+		h3,h4,h5,h6
+		{
+			font-size: 35px;
+			text-align: center;
+		}
+		footer
+		{
+			text-align: center;
+			background-color: black;
+			color: white;
+			font-size: 25px;
+			position: absolute;
+			height: 150px;
+			width: 99%;
+		}
+		hr
+		{
+			color: black;
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>Romeo and Juliet</h1>
+	</header>
+	<div class="advertise" style="text-align: center;
+			font-size: 30px;
+			background-color: 	rgb(0, 77, 77); margin-bottom: 25px; color: white; margin-top: 25px;"><br>
+	<div>
+	<div>
+	<div>
+	<div>
+	<div>
+		<h2 class="advertise">The Romeo and Juliet Prologue</h2>
+Two households, both alike in dignity,<br class="advertise">
+In fair Verona, where we lay our scene,<br class="advertise">
+From ancient grudge break to new mutiny,<br class="advertise">
+Where civil blood makes civil hands unclean.<br class="advertise">
+From forth the fatal loins of these two foes<br >
+A pair of star-cross'd lovers take their life;<br>
+Whose misadventured piteous overthrows<br>
+Do with their death bury their parents' strife.<br class="to">
+The fearful passage of their death-mark'd love,<br class="to">
+And the continuance of their parents' rage,<br>
+Which, but their children's end, nought could remove,<br class="to">
+Is now the two hours' traffic of our stage;<br class="to">
+The which if you with patient ears attend,<br class="to">
+What here shall miss, our toil shall strive to mend.<br class="to">
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+		<br>
+		</div>
+<h3 style="color: red;">The prologue to Romeo and Juliet (Act I) is a sonnet.</h3>
+<p class="to" style="color: green; font-style: italic; font-size: 30px;text-align: center;">The prologue to Romeo and Juliet follows the 14 line, rhyming format of a sonnet. It maintains iambic pentameter, another key element of the sonnet. We can see that it contains a light change of meaning in the last two lines. This is known as a "turn."</p><br>
+<p class="to" style="color: green; font-style: italic; font-size: 30px;text-align: center;">Let's just take a look at how the sonnet breaks down on the page, then we will look at the meaning of the words. You may notice the letters at the ends of each line. Those are the designations for the rhyme scheme. You will also notice that the prologue is divided into three stanzas, followed by a couplet.</p><br>
+<section>
+	<ul>
+			<li class="to"><a href="#college1">Stanza 1</a></li>
+			<li class="to"><a href="#college2">Stanza 2</a></li>
+			<li class="to"><a href="#college3">Stanza 3</a></li>
+			<li class="to"><a href="#college4">Couplet and Turn</a></li>
+		</ul>
+</section>
+<hr>
+<section class="college" id="college1">
+	<h3 class="college">Stanza 1</h3>
+	<p class="college" style="text-align: center;
+			font-size: 30px;">
+		[1] Two households, both alike in dignity, (A)<br class="college">
+		[2] In fair Verona, where we lay our scene, (B)<br class="college">
+		[3] From ancient grudge break to new mutiny, (A)<br class="college">
+		[4] Where civil blood makes civil hands unclean. (B)<br class="college">
+	</p><br>
+	<p class="college" style="color: red; font-style: italic; font-size: 25px;text-align: center;">The prologue opens by saying that two great households in the city of Verona have a long-standing feud, that will soon break out into violence.</p>
+</section>
+<hr>
+<section class="college" id="college2">
+	<h4 class="college">Stanza 2</h4>
+	<p class="college" style="text-align: center;
+			font-size: 30px;">
+		[5] From forth the fatal loins of these two foes (C)<br class="college">
+		[6] A pair of star-cross'd lovers take their life; (D)<br class="college">
+		[7] Whose misadventured piteous overthrows (C)<br class="college">
+		[8] Do with their death bury their parents' strife. (D)<br class="college">
+	</p><br class="college">
+	<p class="college" style="color: red; font-style: italic; font-size: 25px;text-align: center;" >The two feuding families both have children. Those children, Romeo and Juliet, are fated to fall in love. That love leads to tragic events that spring from misadventures and misunderstanding. The two young lovers will die, and ultimately end their parents' fighting.</p>
+
+</section>
+<hr>
+<section class="college" id="college3">
+	<h5 class="your">Stanza 3</h5>
+	<p class="your" style="text-align: center;
+			font-size: 30px;">
+		[ 9] The fearful passage of their death-mark'd love, (E)<br class="your">
+		[10] And the continuance of their parents' rage, (F)<br class="your">
+		[11] Which, but their children's end, nought could remove, (E)<br class="your">
+		[12] Is now the two hours' traffic of our stage; (F)<br class="your">
+	</p><br class="your">
+	<p class="your" style="color: red; font-style: italic; font-size: 25px;text-align: center;">The prologue proceeds to explain that this play will show the story of these two lovers form beginning to end. It also says that the only thing that could end the fighting between the families is the death of Romeo and Juliet.</p>
+</section>
+<hr class="your">
+<section class="your" id="college4">
+	<h6 class="your">Couplet and Turn</h6>
+	<p class="your" style="text-align: center;
+			font-size: 30px;">
+		[13] The which if you with patient ears attend, (G)<br class="your">
+		[14] What here shall miss, our toil shall strive to mend. (G)<br class="your">
+	</p><br class="your">
+	<p class="your" style="color: red; font-style: italic; font-size: 25px;text-align: center;">In the last couplet, the meaning "turns" from talking abouthe content of the play to how it will be performed. This fits with the structure of a sonnet, where the last two lines change the meaning.</p>
+</section>
+<hr>
+<section id="college4">
+	<h6>
+	<p style="text-align: center;
+			font-size: 30px;"><a href="sonnet2.html">Link to Sonnet 2</a></p></h6>
+</section>
+</body>
+
+
+<footer>
+	<div class="your">
+		<p class="your">University Visvesvaraya College Of Engineering<br>
+		   Ambedkar Veedhi, K.R.Circle,<br>
+		   Bangalore.
+		</p>
+	</div>
+</footer>
+</html>
+
+
+website 3
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="trial.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <title>Julius Caesar</title>
+</head>
+<body>
+    <section class="Develop header">
+        <nav>
+            <div class="Develop">
+            <a href=""><i class="fas fa-book-open"></i></a>
+        </div>
+            <div class="Develop nav-links" id="navLinks">
+           <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li class="Develop"><a href="">HOME</a></li>
+                    <li class="Develop"><a href="">ROMEO JULIET</a></li>
+                    <li class="Develop"><a href="">MERCHANT OF VENICE</a></li>
+                    <li class="Develop"><a href="">HOME</a></li>
+                  
+                </ul>
+               
+            </div>
+            <i class="Develop fa fa-bars"  onclick="showMenu()"></i>
+        </nav>
+        <div class="Develop text-box">
+               <h1 class="Develop">JULIUS CAESAR</h1>
+               <div class="Develop">
+               <div class="Develop">
+	       <div class="Develop">
+               <div class="Develop">
+	       <div class="Develop">
+               <div class="Develop">
+	       <div class="Develop">
+               <div class="Develop">
+	       <div class="Develop">
+               <div class="Develop">
+		<div class="Develop">
+               <div class="Develop">
+		<div class="Develop">
+               <div class="Develop">
+		<div class="Develop">
+		<div class="Develop">
+               <div class="Develop">
+               <div class="Develop">
+		<div class="Develop">
+               <div class="Develop">
+               <p>The Tragedy of Julius Caesar (First Folio title: The Tragedie of Ivlivs Cæsar) is a history play and tragedy by William Shakespeare first performed in 1599.<br> Although the play is named Julius Caesar, Brutus speaks more than four times as many lines as the title character, and the central psychological drama of the play focuses on Brutus.</p></div>
+               <a href="#3" class="hero-btn">CLICK HERE TO KNOW MORE!</a>
+        	</div>
+    	</div>
+	</div>
+    	</div>
+	</div>
+	</div>
+    	</div>
+	</div>
+    	</div>
+	</div>
+    	</div>
+	</div>
+    	</div>
+	</div>
+    	</div>
+	</div>
+    	</div>
+	</div>
+    	</div>
+	</div>
+    	</div>
+    </section>
+
+    <section class="Develop snippets" >
+        <h1 class="Develop">Beautiful parts of the play</h1>
+        <p class="Develop notAHint">Here are some of the amazing acts and scenes.</p>
+        <div class="Develop row">
+            <div class="Develop parts-col">
+                <div class="Develop">
+                    <div class="Develop">
+						<h3 class="Develop">Act 1, Scene 2</h1>
+					</div>
+				</div>
+				<p class="Develop"> BRUTUS<br>
+				<div class="a">
+					Cassius,<br>
+							Be not deceived: if I have veil'd my look,<br class="a">
+							I turn the trouble of my countenance<br class="a">
+							Merely upon myself. Vexed I am<br class="a">
+							Of late with passions of some difference,<br class="a">
+							Conceptions only proper to myself,<br class="a">
+							Which give some soil perhaps to my behaviors;<br class="a">
+							But let not therefore my good friends be grieved--<br class="a">
+							Among which number, Cassius, be you one--<br class="a">
+							Nor construe any further my neglect,<br class="a">
+							Than that poor Brutus, with himself at war,<br class="a">
+							Forgets the shows of love to other men
+				</div>
+				</p>
+			</div>
+			<div class="a parts-col">
+				<h3 class="a">Act 2, Scene 2</h3>
+				<p class="a">
+				<div class="a">
+				<div class="a"> 
+				<div class="a"> 
+				<div class="a">
+				<div class="a"> 
+				<div class="a">
+				<div class="a">
+				<div class="a"> 
+				<div class="a"> 
+				<div class="a"> 
+				<div class="a">
+				<div class="a"> 
+				<div class="a"> 
+				<div class="a">
+				<div class="a"> 
+				<div class="a">
+				<div class="a">
+				<div class="a"> 
+				<div class="a"> 
+				<div class="a"> 
+				<div class="a">
+				<div class="a"> 
+				<div class="a"> 
+				<div class="a">
+				<div class="a"> 
+				<div class="a">
+				<div class="a">
+				<div class="a"> 
+				<div class="a"> 
+				<div class="a"> 
+				<div class="a">	
+				
+						CALPURNIA<br>
+							Caesar, I never stood on ceremonies,<br>
+							Yet now they fright me. There is one within,<br>
+							Besides the things that we have heard and seen,<br>
+							Recounts most horrid sights seen by the watch.<br>
+							A lioness hath whelped in the streets;<br>
+							And graves have yawn'd, and yielded up their dead;<br>
+							Fierce fiery warriors fought upon the clouds,<br>
+							In ranks and squadrons and right form of war,<br>
+							Which drizzled blood upon the Capitol;<br>
+							The noise of battle hurtled in the air,<br>
+							Horses did neigh, and dying men did groan,<br>
+							And ghosts did shriek and squeal about the streets.<br>
+							O Caesar! these things are beyond all use,<br>
+							And I do fear them.<br>   
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</div>
+				</p>
+			</div>		
+			<div class="a parts-col">
+				<div class="a NotAClue">
+					<h2 class="a" id="name">CINNA</h2>
+				</div>
+				<h3 class="a">Act 3, Scene 3</h3>
+				<p class="a">
+					<div class="a">
+					<div class="a">
+					<div class="a">
+					<div class="a">
+					<div class="a">
+					<div class="a">
+					<div class="a">
+					<div class="a">
+					<div class="a">
+					<div class="a">
+					<div class="a">
+					<div class="a">
+					<div class="a">
+					<div class="a">
+					<div class="a">
+					<div class="a">
+							CINNA THE POET<br>
+							What is my name? Whither am I going? Where do I<br>
+							dwell? Am I a married man or a bachelor? Then, to<br>
+							answer every man directly and briefly, wisely and<br>
+							truly: wisely I say, I am a bachelor.<br>
+					</div>
+					</div>
+					</div>
+					</div>
+					</div>
+					</div>
+					</div>
+					</div>
+					</div>
+					</div>
+					</div>
+					</div>
+					</div>
+					</div>
+					</div>
+				</p>
+			</div>
+    </section>
+    <section class="website summary" id="3">
+       
+        <h1 class="website">GLIMPSES OF IMPORTANT SCENES</h1>
+        <p class="website">Here are images from the 3 acts in Julius Caesar</p>
+        <div class="website row">
+            <div class="website summaryCol">
+                <a href="#one">
+               <img src="first.jpg" />
+               <div class="website">
+                   <h3 class="website">ACT I</h3>
+               </div>
+            </a>
+           </div>
+            <div class="website summaryCol">
+                <a href="#two">
+                <img src="second.jpg" />
+                <div class="website layer">
+                    <h3 class="website">ACT II</h3>
+                </div>
+                </a>
+             </div>
+             <div class="website summaryCol">
+                <a href="#three">
+                <img src="third.jpg"/>
+                <div class="website layer">
+                    <h3 class="website">ACT III</h3>
+                    <div class="website"><h1 class="website" id="error">Summary Below</h1></div>
+                </div>
+              </a>
+             </div>
+        </div>
+
+    </section>
+    <section class="website glance">
+        <h1 class="website">SUMMARY</h1>
+        <p class="website"> Here is a summary of all the acts in the play.</p>
+        <div class="website finalSumCol" id="one">
+            <img src="ACT1.jpg" />    
+            <h3 class="website">ACT 1</h3>
+            <p class="website">
+                The tribunes of Rome, Marullus and Flavius, break up a gathering of citizens who want to celebrate Julius Caesar's triumphant return from war. <br>The victory is marked by public games in which Caesar's protégé, Mark Antony, takes part. On his way to the arena, Caesar is stopped by a stranger who warns him that he should 'Beware the Ides [15th] of March.<br>'Fellow senators, Caius Cassius and Marcus Brutus, are suspicious of Caesar's reactions to the power he holds in the Republic. They fear he will accept offers to become Emperor. He has been gaining a lot of power recently and people treat him like a god. Cassius, a successful general himself, is jealous of Caesar.<br> Brutus has a more balanced view of the political position. The conspirator Casca enters and tells Brutus of a ceremony held by the plebeians. They offered Caesar a crown three times, and he refused it every time. But the conspirators are still wary of his aspirations. 
+            </p>
+        </div>
+        <div class="website finalSumCol">
+            <img src="ACT2f.jpg" id="two" class="Portia" />    
+            <h3 class="website">ACT 2</h3>
+            <p class="website">
+                Cassius, Casca, and their allies plant false documents to manipulate Brutus to join their cause to remove Caesar. After doing so, they visit Brutus at night in his home to persuade him of their views. There they plan Caesar's death. Brutus is troubled but refuses to confide in his devoted wife, Portia. On 15 March, Caesar's wife, Calpurnia, urges him not to go to the Senate. She has had visionary dreams and fears the portents of the overnight storms. 
+            </p>
+        </div>
+        <div class="website finalSumCol" id="three" >
+            <img src="ACT3.jpg"/>    
+            <h3 class="website">ACT 3</h3>
+            <p class="website">
+                Caesar is nevertheless persuaded by flattery to go to the Capitol. At the Capitol, he is stabbed by each conspirator in turn. 
+            </p>
+        </div>
+        <div class="website">
+            <div class="website">
+                <div class="website">
+                    <div class="Develop">
+                        <div class="Develop">
+                            <div class="Develop">
+                                <div class="Develop">
+                                <h1 id="haha">
+                                    "Et Brutus!"
+                                </h1>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>  
+    </section>
+   <script>
+       var navLinks=document.getElementById("navLinks");
+       document.getElementById("haha").style.color="white";
+       function showMenu()
+       {
+           navLinks.style.right="0";
+       }
+       function hideMenu()
+       {
+        navLinks.style.right="-200px";
+       }
+   </script>
+
+</body>
+</html>
+
+
+website4<!DOCTYPE html>
+<html>
+<head>
+	<title>Website 3</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		h1
+		{
+			text-align: center;
+			font-size: 50px;
+			font-weight: bold;
+			color: white;
+			background-color: rgb(8,8,8);
+			padding-top: 20px;
+			padding-bottom: 20px;
+			margin-top: 0px;
+		}
+	
+		h2
+		{
+			font-size: 55px;
+		}
+		li
+		{
+			font-size: 45px;
+		}
+		h3,h4,h5,h6
+		{
+			font-size: 35px;
+			text-align: center;
+		}
+		footer
+		{
+			text-align: center;
+			background-color: black;
+			color: white;
+			font-size: 25px;
+			position: absolute;
+			height: 150px;
+			width: 99%;
+		}
+		hr
+		{
+			color: black;
+		}
+		#img
+		{
+			background: url("images/movBook.jpg") no-repeat;
+			position: relative;
+			height: 150vh;
+			left: 200px;
+		}
+
+	</style>
+</head>
+
+<body>
+	<header class="the">
+		<h1 class="the">The merchant of venice</h1>
+	</header>
+	<div class="the" style="text-align: center;
+			font-size: 30px;background-color: rgb(0, 77, 77);
+		 margin-bottom: 25px; color: white; margin-top: 25px;"><br>
+		 
+	<div class="the">
+	<div class="the">
+	<div class="the">
+	<div class="the">
+	<div class="the">
+	<div class="the">
+	<div class="the">
+	<divclass="the">
+	<div class="the">
+		<h2 class="the">Mercy: A Sonnet</h2>
+		<p>
+The quality of mercy is not strained.<br class="the">
+It droppeth as the gentle rain from heaven<br class="the">
+Upon the place beneath. It is twice blest:<br class="the">
+It blesseth him that gives and him that takes.<br class="the">
+The quality of mercy is not strained.<br class="the">
+It droppeth as the gentle rain from heaven<br class="the">
+Upon the place beneath. It is twice blest:<br class="the">
+It blesseth him that gives and him that takes.<br class="the">
+Tis mightiest in the mightiest; it becomes<br class="the">
+The throned monarch better than his crown.<br class="the">
+His scepter shows the force of temporal power,<br class="the">
+The attribute to awe and majesty,<br>
+Wherein doth sit the dread and fear of kings.<br>
+But mercy is above this sceptered sway;<br>
+It is enthroned in the hearts of kings;<br>
+It is an attribute of God himself;<br>
+And earthly power doth then show like God’s<br>
+When mercy seasons justice.<br></p></p>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+		<br>
+		</div>
+<h3 class="for" style="color: red;">The Mercy is a sonnet which comes in Merchant of venice by william shakespeare.</h3>
+<p class="for" style="color: green; font-style: italic; font-size: 30px;text-align: center;">"the quality of mercy" is a speech given by portia inwilliam shakespeare's The Merchant of Venice(Act 4, scene 1).</p><br>
+<p class="for" style="color: green; font-style: italic; font-size: 30px;text-align: center;">  </p><br>
+<section class="for">
+	<ul>
+			<li class="for"><a href="#college1">Central Idea of the sonnet</a></li>
+			<li class="for"><a href="#college2"> Appreciation</a></li>
+			
+		</ul>
+</section>
+<hr class="for">
+<section class="for" id="college1">
+	<h3 class="for">Central Idea of the sonnet</h3>
+	<p class="for" style="text-align: center;
+			font-size: 30px;">
+		The poem is an eloquent appeal for mercy. It is taken from The Merchant of Venice. Shylock lends money to Antonio.<br class="for"> 
+When Antonio fails to pay the money back in time, Shylock sues Antonio in the court of law. Bassanio's wife Portia appears in the court on behalf of Antonia. <br class="for"> 
+She tries to change Shylock by an appeal to his sense of mercy.  Raleigh has aptly remarked,  " If the voice of Shakespeare is heard in his plays, it is in the wonderful speech on mercy by Portia."<br> 
+There is an apt use of simile, when the poet compares mercy to the gentle rain. The divine qualities of mercy have been beautifully illustrated in the poem.<br class="for"> 
+		
+	</p><br>
+	
+</section>
+<hr class="for">
+<section class="for" id="college2">
+	<h4 class="for">Appreciation</h4>
+	<p class="for" style="text-align: center;
+			font-size: 30px;">
+		The poem is an eloquent appeal for mercy. It is taken from The Merchant of Venice. Shylock lends money to Antonio.<br class="for"> 
+When Antonio fails to pay the money back in time, Shylock sues Antonio in the court of law. Bassanio's wife Portia appears in the court on behalf of Antonia. <br class="for"> 
+She tries to change Shylock by an appeal to his sense of mercy.  Raleigh has aptly remarked,  " If the voice of Shakespeare is heard in his plays, it is in the wonderful speech on mercy by Portia."<br> 
+There is an apt use of simile, when the poet compares mercy to the gentle rain. The divine qualities of mercy have been beautifully illustrated in the poem.<br class="for"> 
+		
+		 
+	</p><br>
+	<p class="for" style="color: red; font-style: italic; font-size: 25px;text-align: center;" >  </p>
+
+</section>
+<section class="for" id="college2">
+	<h6 class="for">
+	<p class="for" style="text-align: center;
+			font-size: 30px;"><a  href="web5.html">Link to Sonnet2</a></p></h6>
+</section>
+
+</body>
+	<div class="for">
+	<div class="for">
+	<div class="for">
+	
+<footer class="for">
+	<div class="for">
+		<p class="for">University Visvesvaraya College Of Engineering<br>
+		   Ambedkar Veedhi, K.R.Circle,<br class="for">
+		   Bangalore.
+		</div>
+		</div>
+		</div>
+		</p>
+	</div>
+</footer>
+</html>
